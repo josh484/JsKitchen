@@ -2,10 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './assets/components/Home';
 import './App.css'
-
+import Navbar from './assets/components/Navbar';
 function App() {
   return (
     <>
+    <Navbar />
     <Router>
       {/* Wrap Route elements in a Routes component */}
       <Routes>
