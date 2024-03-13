@@ -9,7 +9,7 @@ function Navbar() {
                     style={({ isActive }) => {
                         return isActive ? { color: '#FDE68A' } : {}
                     }}
-                    end to="/"
+                    end to="Contact"
                 >Contact Us
                 </NavLink>
                 <NavLink
@@ -17,7 +17,7 @@ function Navbar() {
                     style={({ isActive }) => {
                         return isActive ? { color: '#FDE68A' } : {}
                     }}
-                    end to="/"
+                    end to="Menu"
                 >Menu
                 </NavLink>
                 <NavLink
