@@ -6,8 +6,9 @@ import Navbar from './assets/components/Navbar';
 function App() {
   return (
     <>
-    <Navbar />
+    
     <Router>
+    <Navbar />
       {/* Wrap Route elements in a Routes component */}
       <Routes>
         {/* Define routes using the Route component to render different page components at different paths */}
